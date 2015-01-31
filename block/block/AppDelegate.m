@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "BlockViewController.h"
+
+#import "BlockDemoViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,7 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    self.window.rootViewController=[[BlockViewController alloc] init];
+    //self.window.rootViewController=[[BlockViewController alloc] init];
+    self.window.rootViewController=[[BlockDemoViewController alloc] init];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

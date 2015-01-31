@@ -13,6 +13,10 @@
 @end
 
 @implementation BlockViewController
+/*
+        block的简单的原理
+ */
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

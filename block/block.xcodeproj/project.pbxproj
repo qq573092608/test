@@ -14,6 +14,10 @@
 		047BD4121A7CB9DB0002AD09 /* blockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD4111A7CB9DB0002AD09 /* blockTests.m */; };
 		047BD41E1A7CBA450002AD09 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD41C1A7CBA450002AD09 /* BlockViewController.m */; };
 		047BD41F1A7CBA450002AD09 /* BlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD41D1A7CBA450002AD09 /* BlockViewController.xib */; };
+		047BD4231A7CC40D0002AD09 /* BlockDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD4211A7CC40D0002AD09 /* BlockDemoViewController.m */; };
+		047BD4241A7CC40D0002AD09 /* BlockDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD4221A7CC40D0002AD09 /* BlockDemoViewController.xib */; };
+		047BD4291A7CC8E50002AD09 /* ShowColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD4281A7CC8E50002AD09 /* ShowColor.m */; };
+		047BD42B1A7CC9F90002AD09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047BD42A1A7CC9F90002AD09 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		047BD41B1A7CBA450002AD09 /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
 		047BD41C1A7CBA450002AD09 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
 		047BD41D1A7CBA450002AD09 /* BlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockViewController.xib; sourceTree = "<group>"; };
+		047BD4201A7CC40C0002AD09 /* BlockDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockDemoViewController.h; sourceTree = "<group>"; };
+		047BD4211A7CC40D0002AD09 /* BlockDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockDemoViewController.m; sourceTree = "<group>"; };
+		047BD4221A7CC40D0002AD09 /* BlockDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockDemoViewController.xib; sourceTree = "<group>"; };
+		047BD4271A7CC8E50002AD09 /* ShowColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowColor.h; sourceTree = "<group>"; };
+		047BD4281A7CC8E50002AD09 /* ShowColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowColor.m; sourceTree = "<group>"; };
+		047BD42A1A7CC9F90002AD09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047BD42B1A7CC9F90002AD09 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 		047BD3E91A7CB9DA0002AD09 = {
 			isa = PBXGroup;
 			children = (
+				047BD42A1A7CC9F90002AD09 /* UIKit.framework */,
 				047BD3F41A7CB9DB0002AD09 /* block */,
 				047BD40E1A7CB9DB0002AD09 /* blockTests */,
 				047BD3F31A7CB9DB0002AD09 /* Products */,
@@ -83,9 +95,8 @@
 			children = (
 				047BD3F91A7CB9DB0002AD09 /* AppDelegate.h */,
 				047BD3FA1A7CB9DB0002AD09 /* AppDelegate.m */,
-				047BD41B1A7CBA450002AD09 /* BlockViewController.h */,
-				047BD41C1A7CBA450002AD09 /* BlockViewController.m */,
-				047BD41D1A7CBA450002AD09 /* BlockViewController.xib */,
+				047BD4251A7CC4610002AD09 /* lijie */,
+				047BD4261A7CC47D0002AD09 /* demo */,
 				047BD4021A7CB9DB0002AD09 /* Images.xcassets */,
 				047BD4041A7CB9DB0002AD09 /* LaunchScreen.xib */,
 				047BD3F51A7CB9DB0002AD09 /* Supporting Files */,
@@ -117,6 +128,28 @@
 				047BD4101A7CB9DB0002AD09 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		047BD4251A7CC4610002AD09 /* lijie */ = {
+			isa = PBXGroup;
+			children = (
+				047BD41B1A7CBA450002AD09 /* BlockViewController.h */,
+				047BD41C1A7CBA450002AD09 /* BlockViewController.m */,
+				047BD41D1A7CBA450002AD09 /* BlockViewController.xib */,
+			);
+			name = lijie;
+			sourceTree = "<group>";
+		};
+		047BD4261A7CC47D0002AD09 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				047BD4201A7CC40C0002AD09 /* BlockDemoViewController.h */,
+				047BD4211A7CC40D0002AD09 /* BlockDemoViewController.m */,
+				047BD4221A7CC40D0002AD09 /* BlockDemoViewController.xib */,
+				047BD4271A7CC8E50002AD09 /* ShowColor.h */,
+				047BD4281A7CC8E50002AD09 /* ShowColor.m */,
+			);
+			name = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +235,7 @@
 				047BD4061A7CB9DB0002AD09 /* LaunchScreen.xib in Resources */,
 				047BD4031A7CB9DB0002AD09 /* Images.xcassets in Resources */,
 				047BD41F1A7CBA450002AD09 /* BlockViewController.xib in Resources */,
+				047BD4241A7CC40D0002AD09 /* BlockDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +256,8 @@
 				047BD41E1A7CBA450002AD09 /* BlockViewController.m in Sources */,
 				047BD3FB1A7CB9DB0002AD09 /* AppDelegate.m in Sources */,
 				047BD3F81A7CB9DB0002AD09 /* main.m in Sources */,
+				047BD4291A7CC8E50002AD09 /* ShowColor.m in Sources */,
+				047BD4231A7CC40D0002AD09 /* BlockDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
