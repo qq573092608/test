@@ -22,6 +22,10 @@
 		047BD4311A7CD4790002AD09 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD42F1A7CD4780002AD09 /* FirstViewController.xib */; };
 		047BD4351A7CD4AA0002AD09 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD4331A7CD4AA0002AD09 /* SecondViewController.m */; };
 		047BD4361A7CD4AA0002AD09 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD4341A7CD4AA0002AD09 /* SecondViewController.xib */; };
+		047BD43B1A7D42970002AD09 /* LianXiOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD4391A7D42970002AD09 /* LianXiOneViewController.m */; };
+		047BD43C1A7D42970002AD09 /* LianXiOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD43A1A7D42970002AD09 /* LianXiOneViewController.xib */; };
+		047BD4401A7D44350002AD09 /* LianXiTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD43E1A7D44350002AD09 /* LianXiTwoViewController.m */; };
+		047BD4411A7D44350002AD09 /* LianXiTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD43F1A7D44350002AD09 /* LianXiTwoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,12 @@
 		047BD4321A7CD4AA0002AD09 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		047BD4331A7CD4AA0002AD09 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		047BD4341A7CD4AA0002AD09 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		047BD4381A7D42970002AD09 /* LianXiOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LianXiOneViewController.h; sourceTree = "<group>"; };
+		047BD4391A7D42970002AD09 /* LianXiOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LianXiOneViewController.m; sourceTree = "<group>"; };
+		047BD43A1A7D42970002AD09 /* LianXiOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LianXiOneViewController.xib; sourceTree = "<group>"; };
+		047BD43D1A7D44350002AD09 /* LianXiTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LianXiTwoViewController.h; sourceTree = "<group>"; };
+		047BD43E1A7D44350002AD09 /* LianXiTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LianXiTwoViewController.m; sourceTree = "<group>"; };
+		047BD43F1A7D44350002AD09 /* LianXiTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LianXiTwoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +182,22 @@
 				047BD4321A7CD4AA0002AD09 /* SecondViewController.h */,
 				047BD4331A7CD4AA0002AD09 /* SecondViewController.m */,
 				047BD4341A7CD4AA0002AD09 /* SecondViewController.xib */,
+				047BD4371A7D42390002AD09 /* New Group */,
 			);
 			name = passValue;
+			sourceTree = "<group>";
+		};
+		047BD4371A7D42390002AD09 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				047BD4381A7D42970002AD09 /* LianXiOneViewController.h */,
+				047BD4391A7D42970002AD09 /* LianXiOneViewController.m */,
+				047BD43A1A7D42970002AD09 /* LianXiOneViewController.xib */,
+				047BD43D1A7D44350002AD09 /* LianXiTwoViewController.h */,
+				047BD43E1A7D44350002AD09 /* LianXiTwoViewController.m */,
+				047BD43F1A7D44350002AD09 /* LianXiTwoViewController.xib */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +282,10 @@
 			files = (
 				047BD4061A7CB9DB0002AD09 /* LaunchScreen.xib in Resources */,
 				047BD4311A7CD4790002AD09 /* FirstViewController.xib in Resources */,
+				047BD4411A7D44350002AD09 /* LianXiTwoViewController.xib in Resources */,
 				047BD4361A7CD4AA0002AD09 /* SecondViewController.xib in Resources */,
 				047BD4031A7CB9DB0002AD09 /* Images.xcassets in Resources */,
+				047BD43C1A7D42970002AD09 /* LianXiOneViewController.xib in Resources */,
 				047BD41F1A7CBA450002AD09 /* BlockViewController.xib in Resources */,
 				047BD4241A7CC40D0002AD09 /* BlockDemoViewController.xib in Resources */,
 			);
@@ -281,6 +307,8 @@
 			files = (
 				047BD41E1A7CBA450002AD09 /* BlockViewController.m in Sources */,
 				047BD4301A7CD4780002AD09 /* FirstViewController.m in Sources */,
+				047BD43B1A7D42970002AD09 /* LianXiOneViewController.m in Sources */,
+				047BD4401A7D44350002AD09 /* LianXiTwoViewController.m in Sources */,
 				047BD3FB1A7CB9DB0002AD09 /* AppDelegate.m in Sources */,
 				047BD4351A7CD4AA0002AD09 /* SecondViewController.m in Sources */,
 				047BD3F81A7CB9DB0002AD09 /* main.m in Sources */,

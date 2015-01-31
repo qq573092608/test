@@ -10,8 +10,9 @@
 #import "BlockViewController.h"
 
 #import "BlockDemoViewController.h"
-
 #import "FirstViewController.h"
+
+#import "LianXiOneViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -26,8 +27,11 @@
     
     //self.window.rootViewController=[[BlockDemoViewController alloc] init];
     
-    FirstViewController *firstVC=[[FirstViewController alloc] init];
-    UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:firstVC];
+   // FirstViewController *firstVC=[[FirstViewController alloc] init];
+    
+    LianXiOneViewController *oneVC=[[LianXiOneViewController alloc] init];
+    
+    UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:oneVC];
     self.window.rootViewController=nav;
     
     [self.window makeKeyAndVisible];
