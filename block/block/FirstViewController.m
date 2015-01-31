@@ -47,7 +47,6 @@
     [seV returnText:^(NSString *showText) {
         NSLog(@"已经执行");
         self.label.text = showText;
-        
     }];
     
     [self.navigationController pushViewController:seV animated:YES];

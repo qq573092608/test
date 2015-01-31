@@ -36,7 +36,6 @@
 //在第一个界面传进来一个Block语句块的函数
 
 //把传进来的Block语句块保存到本类的实例变量returnTextBlock（.h中定义的属性）中，然后寻找一个时机调用
-
 -(void)returnText:(ReturnTextBlock)block{
     
     self.returnTextBlock = block;
