@@ -18,6 +18,10 @@
 		047BD4241A7CC40D0002AD09 /* BlockDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD4221A7CC40D0002AD09 /* BlockDemoViewController.xib */; };
 		047BD4291A7CC8E50002AD09 /* ShowColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD4281A7CC8E50002AD09 /* ShowColor.m */; };
 		047BD42B1A7CC9F90002AD09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047BD42A1A7CC9F90002AD09 /* UIKit.framework */; };
+		047BD4301A7CD4780002AD09 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD42E1A7CD4780002AD09 /* FirstViewController.m */; };
+		047BD4311A7CD4790002AD09 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD42F1A7CD4780002AD09 /* FirstViewController.xib */; };
+		047BD4351A7CD4AA0002AD09 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD4331A7CD4AA0002AD09 /* SecondViewController.m */; };
+		047BD4361A7CD4AA0002AD09 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD4341A7CD4AA0002AD09 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,12 @@
 		047BD4271A7CC8E50002AD09 /* ShowColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowColor.h; sourceTree = "<group>"; };
 		047BD4281A7CC8E50002AD09 /* ShowColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowColor.m; sourceTree = "<group>"; };
 		047BD42A1A7CC9F90002AD09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		047BD42D1A7CD4780002AD09 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		047BD42E1A7CD4780002AD09 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		047BD42F1A7CD4780002AD09 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		047BD4321A7CD4AA0002AD09 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		047BD4331A7CD4AA0002AD09 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		047BD4341A7CD4AA0002AD09 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 				047BD3FA1A7CB9DB0002AD09 /* AppDelegate.m */,
 				047BD4251A7CC4610002AD09 /* lijie */,
 				047BD4261A7CC47D0002AD09 /* demo */,
+				047BD42C1A7CD3AB0002AD09 /* passValue */,
 				047BD4021A7CB9DB0002AD09 /* Images.xcassets */,
 				047BD4041A7CB9DB0002AD09 /* LaunchScreen.xib */,
 				047BD3F51A7CB9DB0002AD09 /* Supporting Files */,
@@ -150,6 +161,19 @@
 				047BD4281A7CC8E50002AD09 /* ShowColor.m */,
 			);
 			name = demo;
+			sourceTree = "<group>";
+		};
+		047BD42C1A7CD3AB0002AD09 /* passValue */ = {
+			isa = PBXGroup;
+			children = (
+				047BD42D1A7CD4780002AD09 /* FirstViewController.h */,
+				047BD42E1A7CD4780002AD09 /* FirstViewController.m */,
+				047BD42F1A7CD4780002AD09 /* FirstViewController.xib */,
+				047BD4321A7CD4AA0002AD09 /* SecondViewController.h */,
+				047BD4331A7CD4AA0002AD09 /* SecondViewController.m */,
+				047BD4341A7CD4AA0002AD09 /* SecondViewController.xib */,
+			);
+			name = passValue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				047BD4061A7CB9DB0002AD09 /* LaunchScreen.xib in Resources */,
+				047BD4311A7CD4790002AD09 /* FirstViewController.xib in Resources */,
+				047BD4361A7CD4AA0002AD09 /* SecondViewController.xib in Resources */,
 				047BD4031A7CB9DB0002AD09 /* Images.xcassets in Resources */,
 				047BD41F1A7CBA450002AD09 /* BlockViewController.xib in Resources */,
 				047BD4241A7CC40D0002AD09 /* BlockDemoViewController.xib in Resources */,
@@ -254,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				047BD41E1A7CBA450002AD09 /* BlockViewController.m in Sources */,
+				047BD4301A7CD4780002AD09 /* FirstViewController.m in Sources */,
 				047BD3FB1A7CB9DB0002AD09 /* AppDelegate.m in Sources */,
+				047BD4351A7CD4AA0002AD09 /* SecondViewController.m in Sources */,
 				047BD3F81A7CB9DB0002AD09 /* main.m in Sources */,
 				047BD4291A7CC8E50002AD09 /* ShowColor.m in Sources */,
 				047BD4231A7CC40D0002AD09 /* BlockDemoViewController.m in Sources */,

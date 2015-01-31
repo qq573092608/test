@@ -10,6 +10,8 @@
 #import "BlockViewController.h"
 
 #import "BlockDemoViewController.h"
+
+#import "FirstViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,7 +23,12 @@
     self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     //self.window.rootViewController=[[BlockViewController alloc] init];
-    self.window.rootViewController=[[BlockDemoViewController alloc] init];
+    
+    //self.window.rootViewController=[[BlockDemoViewController alloc] init];
+    
+    FirstViewController *firstVC=[[FirstViewController alloc] init];
+    UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:firstVC];
+    self.window.rootViewController=nav;
     
     [self.window makeKeyAndVisible];
     return YES;
