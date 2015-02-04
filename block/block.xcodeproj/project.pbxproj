@@ -26,6 +26,11 @@
 		047BD43C1A7D42970002AD09 /* LianXiOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD43A1A7D42970002AD09 /* LianXiOneViewController.xib */; };
 		047BD4401A7D44350002AD09 /* LianXiTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BD43E1A7D44350002AD09 /* LianXiTwoViewController.m */; };
 		047BD4411A7D44350002AD09 /* LianXiTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BD43F1A7D44350002AD09 /* LianXiTwoViewController.xib */; };
+		04F0DD211A82094E0056544C /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0DD1F1A82094E0056544C /* MainTableViewController.m */; };
+		04F0DD221A82094E0056544C /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F0DD201A82094E0056544C /* MainTableViewController.xib */; };
+		04F0DD261A820AA80056544C /* PassValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0DD241A820AA80056544C /* PassValueViewController.m */; };
+		04F0DD271A820AA80056544C /* PassValueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F0DD251A820AA80056544C /* PassValueViewController.xib */; };
+		04F0DD2A1A821ADD0056544C /* TestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0DD291A821ADD0056544C /* TestInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,14 @@
 		047BD43D1A7D44350002AD09 /* LianXiTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LianXiTwoViewController.h; sourceTree = "<group>"; };
 		047BD43E1A7D44350002AD09 /* LianXiTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LianXiTwoViewController.m; sourceTree = "<group>"; };
 		047BD43F1A7D44350002AD09 /* LianXiTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LianXiTwoViewController.xib; sourceTree = "<group>"; };
+		04F0DD1E1A82094E0056544C /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		04F0DD1F1A82094E0056544C /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		04F0DD201A82094E0056544C /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		04F0DD231A820AA80056544C /* PassValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValueViewController.h; sourceTree = "<group>"; };
+		04F0DD241A820AA80056544C /* PassValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassValueViewController.m; sourceTree = "<group>"; };
+		04F0DD251A820AA80056544C /* PassValueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassValueViewController.xib; sourceTree = "<group>"; };
+		04F0DD281A821ADD0056544C /* TestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInfo.h; sourceTree = "<group>"; };
+		04F0DD291A821ADD0056544C /* TestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +131,7 @@
 				047BD4251A7CC4610002AD09 /* lijie */,
 				047BD4261A7CC47D0002AD09 /* demo */,
 				047BD42C1A7CD3AB0002AD09 /* passValue */,
+				04F0DD181A8207D10056544C /* tableViewPassValue */,
 				047BD4021A7CB9DB0002AD09 /* Images.xcassets */,
 				047BD4041A7CB9DB0002AD09 /* LaunchScreen.xib */,
 				047BD3F51A7CB9DB0002AD09 /* Supporting Files */,
@@ -198,6 +212,21 @@
 				047BD43F1A7D44350002AD09 /* LianXiTwoViewController.xib */,
 			);
 			name = "New Group";
+			sourceTree = "<group>";
+		};
+		04F0DD181A8207D10056544C /* tableViewPassValue */ = {
+			isa = PBXGroup;
+			children = (
+				04F0DD281A821ADD0056544C /* TestInfo.h */,
+				04F0DD291A821ADD0056544C /* TestInfo.m */,
+				04F0DD1E1A82094E0056544C /* MainTableViewController.h */,
+				04F0DD1F1A82094E0056544C /* MainTableViewController.m */,
+				04F0DD201A82094E0056544C /* MainTableViewController.xib */,
+				04F0DD231A820AA80056544C /* PassValueViewController.h */,
+				04F0DD241A820AA80056544C /* PassValueViewController.m */,
+				04F0DD251A820AA80056544C /* PassValueViewController.xib */,
+			);
+			name = tableViewPassValue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,11 +310,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				047BD4061A7CB9DB0002AD09 /* LaunchScreen.xib in Resources */,
+				04F0DD221A82094E0056544C /* MainTableViewController.xib in Resources */,
 				047BD4311A7CD4790002AD09 /* FirstViewController.xib in Resources */,
 				047BD4411A7D44350002AD09 /* LianXiTwoViewController.xib in Resources */,
 				047BD4361A7CD4AA0002AD09 /* SecondViewController.xib in Resources */,
 				047BD4031A7CB9DB0002AD09 /* Images.xcassets in Resources */,
 				047BD43C1A7D42970002AD09 /* LianXiOneViewController.xib in Resources */,
+				04F0DD271A820AA80056544C /* PassValueViewController.xib in Resources */,
 				047BD41F1A7CBA450002AD09 /* BlockViewController.xib in Resources */,
 				047BD4241A7CC40D0002AD09 /* BlockDemoViewController.xib in Resources */,
 			);
@@ -306,13 +337,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				047BD41E1A7CBA450002AD09 /* BlockViewController.m in Sources */,
+				04F0DD2A1A821ADD0056544C /* TestInfo.m in Sources */,
 				047BD4301A7CD4780002AD09 /* FirstViewController.m in Sources */,
 				047BD43B1A7D42970002AD09 /* LianXiOneViewController.m in Sources */,
 				047BD4401A7D44350002AD09 /* LianXiTwoViewController.m in Sources */,
 				047BD3FB1A7CB9DB0002AD09 /* AppDelegate.m in Sources */,
 				047BD4351A7CD4AA0002AD09 /* SecondViewController.m in Sources */,
 				047BD3F81A7CB9DB0002AD09 /* main.m in Sources */,
+				04F0DD261A820AA80056544C /* PassValueViewController.m in Sources */,
 				047BD4291A7CC8E50002AD09 /* ShowColor.m in Sources */,
+				04F0DD211A82094E0056544C /* MainTableViewController.m in Sources */,
 				047BD4231A7CC40D0002AD09 /* BlockDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +530,7 @@
 				047BD4171A7CB9DB0002AD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047BD4181A7CB9DB0002AD09 /* Build configuration list for PBXNativeTarget "blockTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +539,7 @@
 				047BD41A1A7CB9DB0002AD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

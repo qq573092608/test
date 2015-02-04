@@ -13,6 +13,8 @@
 #import "FirstViewController.h"
 
 #import "LianXiOneViewController.h"
+
+#import "MainTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -29,9 +31,9 @@
     
    // FirstViewController *firstVC=[[FirstViewController alloc] init];
     
-    LianXiOneViewController *oneVC=[[LianXiOneViewController alloc] init];
-    
-    UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:oneVC];
+    //LianXiOneViewController *oneVC=[[LianXiOneViewController alloc] init];
+    MainTableViewController  *mainTableView=[[MainTableViewController alloc] init];
+    UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:mainTableView];
     self.window.rootViewController=nav;
     
     [self.window makeKeyAndVisible];
