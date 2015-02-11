@@ -22,9 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tableView.tableFooterView=[[UIView alloc] init];
-    
    _test=[[TestInfo alloc] initWithName:@"姓名" AndPassWord:@"密码"];
-    
     
 }
 
@@ -64,8 +62,13 @@
        cell.textLabel.text=self.test.name;
     }else if(1==row){
     
+//        UILabel *lbl=[[UILabel alloc] init];
+//        lbl.frame=CGRectMake(self.view.frame.size.width-200, 0, 150, 40);
+//        lbl.text=self.test.passWord;
+//        [cell.contentView addSubview:lbl];
+        
+        
         cell.textLabel.text=self.test.passWord;
-
    }
     
     return cell;
@@ -75,10 +78,12 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     int row=[indexPath row];
+    PassValueViewController *passValue=[[PassValueViewController alloc] init];
+    __block MainTableViewController  *wself=self;
+
+    
     if (0==row) {
-        PassValueViewController *passValue=[[PassValueViewController alloc] init];
         
-        __block MainTableViewController  *wself=self;
         [passValue passValueAction:^(NSString *value) {
             NSLog(@"用户名信息是:%@",value);
             wself.test.name=value;
@@ -87,9 +92,6 @@
         
         [self.navigationController pushViewController:passValue animated:YES];
     }else if(1==row){
-        PassValueViewController *passValue=[[PassValueViewController alloc] init];
-        
-        __block MainTableViewController  *wself=self;
         [passValue passValueAction:^(NSString *value) {
             NSLog(@"密码信息是:%@",value);
             wself.test.passWord=value;
@@ -100,6 +102,5 @@
     }
 
 }
-
 
 @end

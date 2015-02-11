@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 }
 
 //将前一个页面的block传递过来

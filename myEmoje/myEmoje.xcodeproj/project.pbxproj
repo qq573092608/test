@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0459F5FC1A8BCBCB0026484E /* HcCustomKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0459F5FB1A8BCBCB0026484E /* HcCustomKeyboard.m */; };
+		04794BA61A8B600E0056B31B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04794BA51A8B600E0056B31B /* main.m */; };
+		04794BA91A8B600E0056B31B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04794BA81A8B600E0056B31B /* AppDelegate.m */; };
+		04794BB11A8B600E0056B31B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04794BB01A8B600E0056B31B /* Images.xcassets */; };
+		04794BB41A8B600E0056B31B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04794BB21A8B600E0056B31B /* LaunchScreen.xib */; };
+		04794BC01A8B600E0056B31B /* myEmojeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04794BBF1A8B600E0056B31B /* myEmojeTests.m */; };
+		04794BD71A8B620A0056B31B /* EmojeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04794BD51A8B620A0056B31B /* EmojeViewController.m */; };
+		04794BD81A8B620A0056B31B /* EmojeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04794BD61A8B620A0056B31B /* EmojeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04794BBA1A8B600E0056B31B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04794B981A8B600E0056B31B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04794B9F1A8B600E0056B31B;
+			remoteInfo = myEmoje;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0459F5FA1A8BCBCB0026484E /* HcCustomKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcCustomKeyboard.h; sourceTree = "<group>"; };
+		0459F5FB1A8BCBCB0026484E /* HcCustomKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcCustomKeyboard.m; sourceTree = "<group>"; };
+		04794BA01A8B600E0056B31B /* myEmoje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myEmoje.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04794BA41A8B600E0056B31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04794BA51A8B600E0056B31B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04794BA71A8B600E0056B31B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04794BA81A8B600E0056B31B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04794BB01A8B600E0056B31B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04794BB31A8B600E0056B31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04794BB91A8B600E0056B31B /* myEmojeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myEmojeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04794BBE1A8B600E0056B31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04794BBF1A8B600E0056B31B /* myEmojeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myEmojeTests.m; sourceTree = "<group>"; };
+		04794BD41A8B620A0056B31B /* EmojeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojeViewController.h; sourceTree = "<group>"; };
+		04794BD51A8B620A0056B31B /* EmojeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojeViewController.m; sourceTree = "<group>"; };
+		04794BD61A8B620A0056B31B /* EmojeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04794B9D1A8B600E0056B31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04794BB61A8B600E0056B31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0459F5F91A8BCBB80026484E /* keyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0459F5FA1A8BCBCB0026484E /* HcCustomKeyboard.h */,
+				0459F5FB1A8BCBCB0026484E /* HcCustomKeyboard.m */,
+			);
+			name = keyBoard;
+			sourceTree = "<group>";
+		};
+		04794B971A8B600E0056B31B = {
+			isa = PBXGroup;
+			children = (
+				04794BA21A8B600E0056B31B /* myEmoje */,
+				04794BBC1A8B600E0056B31B /* myEmojeTests */,
+				04794BA11A8B600E0056B31B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04794BA11A8B600E0056B31B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04794BA01A8B600E0056B31B /* myEmoje.app */,
+				04794BB91A8B600E0056B31B /* myEmojeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04794BA21A8B600E0056B31B /* myEmoje */ = {
+			isa = PBXGroup;
+			children = (
+				0459F5F91A8BCBB80026484E /* keyBoard */,
+				04794BA71A8B600E0056B31B /* AppDelegate.h */,
+				04794BA81A8B600E0056B31B /* AppDelegate.m */,
+				04794BD41A8B620A0056B31B /* EmojeViewController.h */,
+				04794BD51A8B620A0056B31B /* EmojeViewController.m */,
+				04794BD61A8B620A0056B31B /* EmojeViewController.xib */,
+				04794BB01A8B600E0056B31B /* Images.xcassets */,
+				04794BB21A8B600E0056B31B /* LaunchScreen.xib */,
+				04794BA31A8B600E0056B31B /* Supporting Files */,
+			);
+			path = myEmoje;
+			sourceTree = "<group>";
+		};
+		04794BA31A8B600E0056B31B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04794BA41A8B600E0056B31B /* Info.plist */,
+				04794BA51A8B600E0056B31B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04794BBC1A8B600E0056B31B /* myEmojeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04794BBF1A8B600E0056B31B /* myEmojeTests.m */,
+				04794BBD1A8B600E0056B31B /* Supporting Files */,
+			);
+			path = myEmojeTests;
+			sourceTree = "<group>";
+		};
+		04794BBD1A8B600E0056B31B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04794BBE1A8B600E0056B31B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04794B9F1A8B600E0056B31B /* myEmoje */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04794BC31A8B600E0056B31B /* Build configuration list for PBXNativeTarget "myEmoje" */;
+			buildPhases = (
+				04794B9C1A8B600E0056B31B /* Sources */,
+				04794B9D1A8B600E0056B31B /* Frameworks */,
+				04794B9E1A8B600E0056B31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myEmoje;
+			productName = myEmoje;
+			productReference = 04794BA01A8B600E0056B31B /* myEmoje.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04794BB81A8B600E0056B31B /* myEmojeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04794BC61A8B600E0056B31B /* Build configuration list for PBXNativeTarget "myEmojeTests" */;
+			buildPhases = (
+				04794BB51A8B600E0056B31B /* Sources */,
+				04794BB61A8B600E0056B31B /* Frameworks */,
+				04794BB71A8B600E0056B31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04794BBB1A8B600E0056B31B /* PBXTargetDependency */,
+			);
+			name = myEmojeTests;
+			productName = myEmojeTests;
+			productReference = 04794BB91A8B600E0056B31B /* myEmojeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04794B981A8B600E0056B31B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "武汉亦鸟科技有限公司";
+				TargetAttributes = {
+					04794B9F1A8B600E0056B31B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					04794BB81A8B600E0056B31B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 04794B9F1A8B600E0056B31B;
+					};
+				};
+			};
+			buildConfigurationList = 04794B9B1A8B600E0056B31B /* Build configuration list for PBXProject "myEmoje" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04794B971A8B600E0056B31B;
+			productRefGroup = 04794BA11A8B600E0056B31B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04794B9F1A8B600E0056B31B /* myEmoje */,
+				04794BB81A8B600E0056B31B /* myEmojeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04794B9E1A8B600E0056B31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04794BB41A8B600E0056B31B /* LaunchScreen.xib in Resources */,
+				04794BB11A8B600E0056B31B /* Images.xcassets in Resources */,
+				04794BD81A8B620A0056B31B /* EmojeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04794BB71A8B600E0056B31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04794B9C1A8B600E0056B31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0459F5FC1A8BCBCB0026484E /* HcCustomKeyboard.m in Sources */,
+				04794BD71A8B620A0056B31B /* EmojeViewController.m in Sources */,
+				04794BA91A8B600E0056B31B /* AppDelegate.m in Sources */,
+				04794BA61A8B600E0056B31B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04794BB51A8B600E0056B31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04794BC01A8B600E0056B31B /* myEmojeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04794BBB1A8B600E0056B31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04794B9F1A8B600E0056B31B /* myEmoje */;
+			targetProxy = 04794BBA1A8B600E0056B31B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04794BB21A8B600E0056B31B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04794BB31A8B600E0056B31B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04794BC11A8B600E0056B31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04794BC21A8B600E0056B31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04794BC41A8B600E0056B31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myEmoje/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04794BC51A8B600E0056B31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myEmoje/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04794BC71A8B600E0056B31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myEmojeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myEmoje.app/myEmoje";
+			};
+			name = Debug;
+		};
+		04794BC81A8B600E0056B31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myEmojeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myEmoje.app/myEmoje";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04794B9B1A8B600E0056B31B /* Build configuration list for PBXProject "myEmoje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04794BC11A8B600E0056B31B /* Debug */,
+				04794BC21A8B600E0056B31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04794BC31A8B600E0056B31B /* Build configuration list for PBXNativeTarget "myEmoje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04794BC41A8B600E0056B31B /* Debug */,
+				04794BC51A8B600E0056B31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04794BC61A8B600E0056B31B /* Build configuration list for PBXNativeTarget "myEmojeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04794BC71A8B600E0056B31B /* Debug */,
+				04794BC81A8B600E0056B31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04794B981A8B600E0056B31B /* Project object */;
+}
